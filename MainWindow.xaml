@@ -1,0 +1,16 @@
+﻿<Window x:Class="pract5.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pract5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="PasswordTbx" materialDesign:HintAssist.Hint="Пароль" TextWrapping="Wrap" Text="" Height="NaN" Margin="130,217,130,175" Width="NaN"/>
+        <TextBox x:Name="LoginTbx" materialDesign:HintAssist.Hint="Логин" TextWrapping="Wrap" Text="" Height="NaN" Margin="130,138,130,254" Width="NaN" />
+        <Button Content="Авторизоваться" Height="NaN" Margin="130,304,130,88" Width="NaN" Click="Button_Click"/>
+
+    </Grid>
+</Window>

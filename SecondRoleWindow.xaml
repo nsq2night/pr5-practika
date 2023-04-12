@@ -1,0 +1,32 @@
+﻿<Window x:Class="pract5.SecondRoleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pract5"
+        mc:Ignorable="d"
+        Title="SecondRoleWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Courses" Content="Курсы" Margin="194,11,194,12" Grid.Row="1" Click="Courses_Click"/>
+        <Button x:Name="course_materials" Content="Материалы курсов" Margin="194,11,194,11" Grid.Row="2" Click="course_materials_Click"/>
+        <Button x:Name="Branches" Content="Филиалы" Margin="194,11,194,11" Grid.Row="3" Click="Branches_Click"/>
+        <Button x:Name="Timetable_of_classes" Content="Расписание занятий" Margin="194,11,194,11" Grid.Row="4" Click="Timetable_of_classes_Click"/>
+        <Button x:Name="groups" Content="Группы" Margin="194,13,194,10" Grid.Row="5" Click="groups_Click"/>
+        <Button x:Name="students" Content="Студенты" Margin="194,12,194,10" Grid.Row="6" Click="students_Click"/>
+        <Button Content="Выход" Margin="297,10,297,12" Grid.Row="7" Click="Button_Click"/>
+    </Grid>
+</Window>
